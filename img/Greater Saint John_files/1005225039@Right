@@ -1,0 +1,5 @@
+function OAS_RICH(position) {
+if (position == 'Right') {
+document.write ('<A HREF="https://oasc12.247realmedia.com/RealMedia/ads/click_lx.ads/www.telegraphjournal.com/greater-saint-john/story/733695006/Right/default/empty.gif/72354a66706c6c756c77494142462b70?x" target="_top"><IMG SRC="https://cdn.oas-c17.adnxs.com/RealMedia/ads/Creatives/default/empty.gif/0"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}

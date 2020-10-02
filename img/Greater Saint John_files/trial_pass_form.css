@@ -1,0 +1,459 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header-wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.header-wrapper .header {
+  margin-top: 1em;
+  height: 35px;
+  max-height: 35px;
+}
+
+.header-wrapper .header label {
+  font-size: 1.25em;
+  color: white;
+  font-weight: bold;
+}
+
+.header-wrapper .banner img{
+  max-width: 100%;
+  height: 200px;
+  width: 100%;
+}
+
+.header-wrapper .footer {
+  height: 5vh;
+}
+
+.title-wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.title-wrapper .thanks{
+  font-size: 1.5em;
+}
+
+.title-wrapper .title{
+  font-size: 1.9em;
+  font-weight: normal;
+}
+
+.title-welcome {
+  font-size: 1.9em;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+.title-expired {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: -0.5rem;
+}
+
+.wrapper {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+.free-trial-wrapper {
+
+  padding-top: 5rem;
+  background-color: white;
+}
+
+.free-trial-validation-wrapper {
+  font-size: 1rem;
+  padding-bottom: 0;
+}
+
+.free-trial-expired-title-wrapper {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.text-content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  align-self: center;
+  padding-top: 1rem;
+  letter-spacing: 1px;
+}
+
+.text-content p {
+  text-align: center;
+}
+
+.text-content label{
+  text-align: center;
+}
+
+.free-trial-subscription p {
+  width: 90%;
+  margin-left: 1.9rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.free-trial-subscription-subscribe-message {
+  color: #6e8dc0;
+  font-weight: 600;
+  text-align: center !important;
+  font-size: 1.2rem;
+}
+
+.free-trial-subscription-subscribe-message2 {
+  margin-top: -1.5rem;
+  text-align: center !important;
+  font-size: 1.2rem;
+}
+
+.text-content div p label{
+  font-weight: bold;
+}
+
+.free-trial-start {
+  width: 80%;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.free-trial-start-checkbox {
+  text-align: right;
+  margin-top: 0.2rem;
+}
+
+#SyncronexTrialPassFormModel_terms_agreement {
+  width: 1.8em;
+  height: 1.8em;
+  vertical-align: middle;
+  margin-right: 0.7rem;
+}
+
+#SyncronexTrialPassFormModel_region {
+  font-size: 0.75rem;
+}
+
+.free-trial-start-checkbox label {
+  font-size: 0.9rem;
+}
+
+.free-trial-start-heading {
+  font-size: 2.3em;
+  width: 92%;
+  font-weight: 100;
+  line-height: 1.4em;
+}
+
+.validation-heading {
+  font-size: 2.5rem;
+  padding-top: 1em;
+}
+
+.validation-email {
+  font-size: 1.3rem;
+  margin-top: -1rem;
+}
+
+.subscriber-form {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -js-align-items: flex-start;
+  align-items: flex-start;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  -js-align-self: center;
+  align-self: center;
+  margin-top: 4em;
+}
+
+.subscriber-form-signup {
+  width: 60%;
+  max-width: 60%;
+}
+
+.subscriber-form .subscriber-form-input {
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.subscriber-form .subscriber-form-label.email {
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+
+.subscriber-form .subscriber-form-label.email label {
+  font-size: 1rem;
+  margin-top: -2.5rem;
+}
+
+.errorMessage {
+  color: darkred;
+  padding-top: 0.5rem;
+}
+
+.subscriber-form .subscriber-form-input.error input[type="text"], .subscriber-form .subscriber-form-input.error input[type="password"] {
+  border: solid 1px darkred;
+  -webkit-box-shadow: 0 0 5px 1px darkred;
+  -moz-box-shadow: 0 0 5px 1px darkred;
+  box-shadow: 0 0 5px 1px darkred;
+}
+
+.subscriber-form input[type="text"], .subscriber-form input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px #EEECEC;
+  background-color: #EEECEC;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.subscriber-form select {
+  padding: 10px;
+  background-color: #EEECEC;
+  color: #454545;
+  border-radius: 10px;
+  border: solid 1px #EEECEC;
+  width: 100%;
+}
+
+.subscriber-form-label {
+  width: 84%;
+  margin: 0 auto;
+}
+
+.subscriber-form-label-first {
+  margin-top: -3.5rem;
+}
+
+.subscriber-form .subscriber-form-label label{
+  color: #000000;
+  font-weight: normal;
+  float: left;
+  font-size: 0.8rem;
+}
+
+.subscriber-form .subscriber-form-submit {
+  padding-top: 1em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  width: 84%;
+  margin: 0 auto;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+}
+
+.subscriber-form .subscriber-form-submit .blue-button {
+  background-color: #6e8dc0;
+  color: white;
+  padding: 16px;
+  line-height: 0px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.subscriber-form-submit-resend {
+  text-align: center;
+  display: block !important;
+  width: 100% !important;
+  margin-top: -4em !important;
+}
+
+.subscriber-form-submit-resend .blue-button {
+   width: 50%;
+}
+
+.subscriber-form .subscriber-form-success,
+.subscriber-form .subscriber-form-error{
+  margin-top: 1em;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+.subscriber-form .subscriber-form-success label {
+  color: #4c9689;
+}
+.subscriber-form .subscriber-form-error label {
+  color: darkred;
+}
+
+select, textarea, input[type="text"], input[type="password"],
+input[type="datetime"], input[type="datetime-local"],
+input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"],
+input[type="url"], input[type="search"], input[type="tel"],
+input[type="color"] {
+  font-size: 16px;
+}
+
+
+input[type="button"], input[type="submit"], textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+}
+
+.free-trial-terms-link {
+  color: #6e8dc0;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .subscriber-form-signup {
+    width: 98%;
+    max-width: 98%;
+  }
+}
+
+@media (max-width: 1001px) {
+  .header-wrapper .banner img {
+    height: 115px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .free-trial-validation-wrapper .text-content {
+    display: block;
+  }
+
+  .validation-heading {
+    font-size: 1.3rem;
+  }
+
+  .validation-email {
+    font-size: 1rem;
+  }
+
+  .title-expired {
+    font-size: 0.9em;
+  }
+
+  .title-welcome {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  .subscriber-form .subscriber-form-label.email label {
+    font-size: 0.8rem;
+  }
+
+  .text-content {
+     padding-bottom: 1em;
+  }
+  .SyncronexTrialPassFormModel_region {
+    margin-top: 1.5em;
+  }
+
+}
+
+@media (max-width: 574px) {
+  .free-trial-wrapper {
+    margin-top: -3em;
+  }
+  .free-trial-subscription p {
+    margin-left: 1.5rem;
+  }
+
+  .free-trial-start-heading {
+    font-size: 1.4em;
+  }
+
+  .subscriber-form {
+    margin-top: 2em;
+    margin-left: -0.5rem;
+  }
+
+  .free-trial-start-checkbox {
+    width: 35%;
+  }
+
+  .free-trial-start-checkbox label {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .free-trial-subscription p {
+    margin-left: 1.2rem;
+  }
+}
+
